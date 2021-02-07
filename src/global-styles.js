@@ -2,6 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+  * {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
   html, body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
